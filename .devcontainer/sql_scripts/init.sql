@@ -1,8 +1,4 @@
-CREATE DATABASE inventory;
-
-\c inventory;
-
-CREATE TABLE equipment (
+CREATE TABLE If NOT EXISTS equipment (
     id SERIAL PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
     type VARCHAR(100) NOT NULL,
