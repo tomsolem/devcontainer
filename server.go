@@ -51,5 +51,5 @@ func main() {
 		json.NewEncoder(w).Encode(equipments)
 	})
 
-	http.ListenAndServe(":5000", nil)
+	http.ListenAndServe(":8080", nil)
 }
